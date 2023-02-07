@@ -1,0 +1,40 @@
+Git:
+
+Version control system (VCS) :
+                                System that records changes to a file or set of files
+                                Pulling & Pushing
+        Types :
+                Local  - eg : RCS
+
+                Centralized -  central server repository holds the official copy of the code
+                              eg : CVS , Subversion 
+
+                Distributed - keeps track of software revisions and allows many developers to work on a given project 
+                              without maintaing a connection , every developer has their own repository , work in offline
+                              eg : Git , Darcs
+
+GIT : Free and open source distributed VCS desgined to handle everything from small 2 large projects with speed and efficiency
+
+git checkout ->  is the act of switching between different versions of a target entity
+
+git fetch -> download contents from a remote repository
+
+states : working directory - single checkout of 1 version of prj, modify files
+
+         staging area - stores info abt nxt commit ,area btw working & git directory, all files ready for commit r stored here
+
+         git directory - stores the metadata and obj db for prj (while cloning the repository)
+
+         git status -> 
+         git add -> save changes to git repository
+         git commit -> 
+         git config -> setting the configuration
+         git clone ->
+         git echo ->
+         git log -> committed things will be shown
+         git diff ->
+         git checkout ->
+
+
+
+ 
